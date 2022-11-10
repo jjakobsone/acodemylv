@@ -10,7 +10,7 @@ public class Variables {
         System.out.println("Calorie in fruits in 100gr:");
 
         byte inzhir = 75;
-        System.out.println("Inzhir- "+ inzhir);
+        System.out.println("Inzhir- " + inzhir);
 
         byte vinograd = 65;
         System.out.println("Vinograd- " + vinograd);
@@ -89,7 +89,7 @@ public class Variables {
         System.out.println("A- " + 1);
 
         char b = 'B' + 2;
-        System.out.println("B- "+ 2);
+        System.out.println("B- " + 2);
 
         char c = 'C' + 3;
         System.out.println("C- " + 3);
@@ -234,7 +234,7 @@ public class Variables {
         //Atomnaja massa himicheskih elementov
         System.out.println("Atomnaja massa himicheskih elementov:");
 
-        double marganec =  54.938045;
+        double marganec = 54.938045;
         System.out.println("Marganec- " + marganec);
 
         double ittrij = 88.90585;
@@ -316,6 +316,7 @@ public class Variables {
 
         //nr.2 Using all Java Operators create arithmetic operations for each data type
 
+
         //Operator -
         byte group2021 = 100;
         byte group2000 = 57;
@@ -337,6 +338,7 @@ public class Variables {
         long result3 = sobaki - koshki;
         System.out.println("V mire sobak bolse koshek na - " + result3);
 
+
         //Operator +
         byte class1 = 30;
         byte class2 = 32;
@@ -353,16 +355,59 @@ public class Variables {
         short result8 = (short) (rigaSalaspils + salaspilsOgre);
         System.out.println("Rasstojanie ot Rigi do Ogre sostavljaet " + result8 + " km");
 
-        char
+        char mashina1 = 30000;
+        char mashina2 = 20000;
+        char result9 = (char) (mashina1 + mashina2);
+        System.out.println("Stoimostj avtoparka - " + result9);
+
+        int kitaj2011 = 66215831;
+        int kitaj2012 = 70368028;
+        int result10 = kitaj2012 + kitaj2011;
+        System.out.println("Za dva goda ulov ribi u Kitaja sostavljal- " + result10);
+
+        long sobaki1 = 525000000;
+        long koshki1 = 400000000;
+        long result11 = sobaki1 + koshki1;
+        System.out.println("V mire nas4itivajut porjadka- " + result11 + " sobak i koshek");
+
+
+        //Operator/
+        byte kormannieDenjgi = 100;
+        byte deti = 5;
+        byte result12 = (byte) (kormannieDenjgi / deti);
+        System.out.println("Kazhdij rebenok poluchaet " + result12 + " kormannih deneg");
+
+        short ucheniki = 30000;
+        short uchitelja = 1000;
+        short result14 = (short) (ucheniki / uchitelja);
+        System.out.println("Na kazhdogo uchitelja prihodnjatsja " + result14 + " uchenikov");
+
+        int pribilj = 50000000;
+        int period = 5;
+        int result13 = pribilj / period;
+        System.out.println("Srednjaja pribilj za 5 let sostavljaet- " + result13);
+
 
         //Operator *
+
+        byte magazini = 10;
+        byte vKazhdomMagazineRabitnikov = 12;
+        byte result15 = (byte) (magazini * vKazhdomMagazineRabitnikov);
+        System.out.println("V seti magazinov " + result15 + " rabotnikov");
+
+        short mashinaStoimostj = 10000;
+        short mashinaKollichestvo = 2;
+        short result16 = (short) (mashinaStoimostj * mashinaKollichestvo);
+        System.out.println("Obshaja stoimostj mashin- " + result16);
+
+        char ofisniePomeshenija = 5000;
+        char zdanija = 8;
+        char result17 = (char) (ofisniePomeshenija * zdanija);
+        System.out.println("Vsego ofisnih pomeshenij- " + result17);
+
         int dlinna = 1000;
         int shirina = 850;
         int result5 = dlinna * shirina;
         System.out.println("Ploshadj zemli- " + result5);
-
-
-
-
     }
 }
