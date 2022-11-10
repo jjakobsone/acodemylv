@@ -409,5 +409,7 @@ public class Variables {
         int shirina = 850;
         int result5 = dlinna * shirina;
         System.out.println("Ploshadj zemli- " + result5);
+
+        //thank you
     }
 }
