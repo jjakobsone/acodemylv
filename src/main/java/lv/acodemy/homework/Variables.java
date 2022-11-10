@@ -1,7 +1,10 @@
 package lv.acodemy.homework;
 
+import java.sql.SQLOutput;
+
 public class Variables {
     public static void main(String[] args) {
+        //nr.1
 
         //Calorie in fruits
         System.out.println("Calorie in fruits in 100gr:");
@@ -266,10 +269,6 @@ public class Variables {
 
 
         //boolean
-
-        boolean todayIsNovember = true;
-        System.out.println("Today is November - " + todayIsNovember);
-
         /*
         Madonna's real name is Madonna - True - Madonna Louise Ciccone in full
         An octopus has three hearts - True - an octopus has one main, systemic heart to pumps blood around its body. The two additional hearts are responsible for pumping blood over each of its gills.
@@ -281,6 +280,9 @@ public class Variables {
         Meghan Markle's first name is Rachel - True
         Goldfish have a two second memory - False - Their memories can actually last for months
          */
+
+        boolean todayIsNovember = true;
+        System.out.println("Today is November - " + todayIsNovember);
 
         boolean madonnasRealNameIsMadonna = true;
         System.out.println("Madonna's real name is Madonna- " + madonnasRealNameIsMadonna);
@@ -310,8 +312,54 @@ public class Variables {
         System.out.println("Goldfish have a two second memory- " + goldfishHaveATwoSecondMemory);
 
 
+        System.out.println(" ");
 
+        //nr.2 Using all Java Operators create arithmetic operations for each data type
 
+        //Operator -
+        byte group2021 = 100;
+        byte group2000 = 57;
+        byte result1 = (byte) (group2021 - group2000);
+        System.out.println("V gruppe u4enikov na 2021 god ostalosj- " + result1);
+
+        short suto4najaNormaKkal = 2000;
+        short zavtrakKkal = 400;
+        short result2 = (short) (suto4najaNormaKkal - zavtrakKkal);
+        System.out.println("Ostalosj upotrebitj kkal- " + result2);
+
+        int zhiteliRigi = 614618;
+        int zhiteliTallina = 437980;
+        int result4 = zhiteliRigi - zhiteliTallina;
+        System.out.println("Zhitelej Rigi bolse zhitelej Tallina na " + result4 + " chelovek");
+
+        long sobaki = 525000000;
+        long koshki = 400000000;
+        long result3 = sobaki - koshki;
+        System.out.println("V mire sobak bolse koshek na - " + result3);
+
+        //Operator +
+        byte class1 = 30;
+        byte class2 = 32;
+        byte result6 = (byte) (class1 + class2);
+        System.out.println("V shkole v 9 klasse uchatsja " + result6 + " uchenika");
+
+        int muzhchini = 273222;
+        int zhen6ini = 341396;
+        int result7 = muzhchini + zhen6ini;
+        System.out.println("V Rige prozhivaet " + result7 + " ljudej");
+
+        short rigaSalaspils = 23;
+        short salaspilsOgre = 11;
+        short result8 = (short) (rigaSalaspils + salaspilsOgre);
+        System.out.println("Rasstojanie ot Rigi do Ogre sostavljaet " + result8 + " km");
+
+        char
+
+        //Operator *
+        int dlinna = 1000;
+        int shirina = 850;
+        int result5 = dlinna * shirina;
+        System.out.println("Ploshadj zemli- " + result5);
 
 
 
