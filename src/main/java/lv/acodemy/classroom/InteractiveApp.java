@@ -16,16 +16,22 @@ public class InteractiveApp {
 
         System.out.printf("Press 1 for registration or press 2 to stop chat%n");
         byte answer = chatBot.nextByte();
-        if (answer == 1) {
-            System.out.printf("Please enter the date in following format : (dd-MM-yyyy)%n");
-            String registrationDate = chatBot.next();
-            System.out.printf("You've registered on date: " + registrationDate);
-        } else if (answer == 2){
-            System.out.printf("Ok, this chat willbe closed now!");
-            chatBot.close();
-        } else {
-            System.out.println("Option is not correct! Try again!");
+        boolean isCorrect = false;
+        while (isCorrect == false) {
+            if (answer == 1) {
+                System.out.printf("Please enter the date in following format : (dd-MM-yyyy)%n");
+                String registrationDate = chatBot.next();
+                System.out.printf("You've registered on date: " + registrationDate);
+                isCorrect = true;
+            } else if (answer == 2) {
+                System.out.printf("Ok, this chat will be closed now!");
+                chatBot.close();
+                isCorrect = true;
+            } else {
+                System.out.println("Option is not correct! Try again!");
+                System.out.printf("Press 1 for registration or press 2 to stop chat%n");
+                answer = chatBot.nextByte();
+            }
         }
-
     }
 }
