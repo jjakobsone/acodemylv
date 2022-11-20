@@ -6,8 +6,6 @@ public class ObjectsExample {
         Animal catBarsik = new Animal("Barsik", "gray", 0, true);
         catBarsik.printAllInfo();
 
-        Animal dogRex = new Animal();
-
 //        System.out.println();
 //
 //        catBarsik.name = "Barsik";
