@@ -54,6 +54,7 @@ public class ObjectsExample {
         catBarsik.play();
         catBarsik.feed();
         catBarsik.play();
+        catBarsik.play();
 
 
 
