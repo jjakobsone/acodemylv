@@ -6,8 +6,6 @@ public class ObjectsExample {
         Animal catBarsik = new Animal("Barsik", "gray", 0, true);
         catBarsik.printAllInfo();
 
-        Animal dogRex = new Animal();
-
 //        System.out.println();
 //
 //        catBarsik.name = "Barsik";
@@ -55,6 +53,7 @@ public class ObjectsExample {
         catBarsik.feed();
         catBarsik.play();
 
+        System.out.println(catBarsik.getEnergy());
 
 
     }
